@@ -1,10 +1,10 @@
 #!/bin/sh
 
-IMAGE_VERSION=5.0
+IMAGE_VERSION=5.1
 APPLICATION_NAME=stavloi
 
-docker build -t zoukas/${APPLICATION_NAME}:${IMAGE_VERSION} .
-docker push zoukas/${APPLICATION_NAME}:${IMAGE_VERSION}
+docker build -t vaggelas/${APPLICATION_NAME}:${IMAGE_VERSION} .
+docker push vaggelas/${APPLICATION_NAME}:${IMAGE_VERSION}
 
 
 # docker run --name ${APPLICATION_NAME}-${IMAGE_VERSION} \
