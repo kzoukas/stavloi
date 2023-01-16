@@ -1,6 +1,6 @@
 #!/bin/sh
 
-IMAGE_VERSION=5.2
+IMAGE_VERSION=5.3
 APPLICATION_NAME=stavloi
 
 docker build -t vaggelas/${APPLICATION_NAME}:${IMAGE_VERSION} .
